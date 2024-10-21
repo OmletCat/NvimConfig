@@ -1,8 +1,11 @@
 require("config.lazy")
 require("config.lsp_zero_config")
 require("config.nvim_tree_config")
+
+
 -- my stuff
 vim.cmd("set relativenumber")
+vim.cmd("set number")
 vim.cmd.colorscheme("catppuccin")
 vim.opt.termguicolors = true
 

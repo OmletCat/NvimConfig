@@ -1,12 +1,13 @@
 require("config.lazy")
 require("config.lsp_zero_config")
 require("config.nvim_tree_config")
-
 -- my stuff
 vim.cmd("set relativenumber")
 vim.cmd.colorscheme("catppuccin")
 vim.opt.termguicolors = true
 
+
+vim.cmd("set ma") -- 'set modifiable' so that i can edit files in nvim tree
 --vim.cmd.colorscheme('tokyonight')
 
 
